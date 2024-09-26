@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+  <h2>Javascript string () method</h2>
+
+  <p>The string method can convert a method to a string</p>
+  <p id = "number_result"></p>
+  <p id ="String_ result"></p>
+  <script>
+   var x - 70;;
+   var y - 90;
+   document.getElementById"(number_result)".innerhtml = x+y
+   document.getElementById"(string_result)".innerhtml = string (x)+ string (Y);
+
+  </script>
+</body>
+</html>
