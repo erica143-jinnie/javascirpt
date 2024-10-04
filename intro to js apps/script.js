@@ -1,6 +1,6 @@
 var choice = prompt("Welcome to Area Calculator. \n Please Enter your Choice. \n1.Area of Rectangle. \n2.Area of Triangle. \n3.Area of Circle. \n4.Area of Parallelogram");
 if (choice=='1'){
-var 1 = prompt('enter the length')
+var l = prompt('enter the length')
 var b = prompt('enter breadth')
 var result = Number(1) * Number(b)
 alert ('The Area is '+ result)
