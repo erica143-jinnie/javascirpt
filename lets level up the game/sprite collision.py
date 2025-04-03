@@ -17,3 +17,4 @@ class Spirte(pygame.sprite.Sprite):
          self.rect = self.image.get_rect()
      def move(self,x_change, y_change):
          self.rect.X = max(min(self.rect)
+                           
