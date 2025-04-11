@@ -1,1 +1,3 @@
-from tkinter improt
+from tkinter import*
+
+root
