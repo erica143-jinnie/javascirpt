@@ -31,4 +31,19 @@ class RestaurantOrderManagment:
         for i,(item,price) in enumrate(self.menu_items(), start=1):
             label = ttk.Label(frame,
                               text="{item} (${price}):",
-                              font=)
+                              font=("Arial",12)
+            label.grid(row=i, column=0,padx=10,pady=5)
+            self.menu_labels[items]= label
+            
+            quantity_entry = ttk.Entry(frame,width=5)
+            quantity_entry.grid(row=i ,column=1,padx=10,pady=5)
+            self.menu_quantities[item] = quantity_entry
+
+        self.currency_var = tk.StringVar()
+        ttk.Label(frame,text="currency:")
+                  font=("Arial",12)).grid(row=len(self.menu_items)+1
+                                          column=0,
+                                          padx=0,
+                                          pady=5)
+            currency_dropdown = ttk.Combobox(frame,
+                                             textvariable=self)
